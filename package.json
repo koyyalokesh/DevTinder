@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"src/app.js",
-    "dev":"src/app.js"
-    
+    "start": "src/app.js",
+    "dev": "src/app.js"
   },
   "author": "lokesh koyya",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.2"
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.3",
+    "validator": "^13.12.0"
   }
 }
